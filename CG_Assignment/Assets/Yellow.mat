@@ -8,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Yellow
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: a8366b12955937e468030cccdce0be48, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _EMISSION
-  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -73,6 +73,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RimPower: 3
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -81,4 +82,5 @@ Material:
     m_Colors:
     - _Color: {r: 0.90848845, g: 0.9150943, b: 0.02158241, a: 1}
     - _EmissionColor: {r: 0.6226415, g: 0.5960694, b: 0.13803844, a: 1}
+    - _RimColor: {r: 1, g: 0.89338535, b: 0, a: 0}
   m_BuildTextureStacks: []
