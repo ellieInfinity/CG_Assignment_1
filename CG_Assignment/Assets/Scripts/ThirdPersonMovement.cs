@@ -55,11 +55,11 @@ public class ThirdPersonMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
-            anim.SetBool("isWalking", true);
+            //anim.SetBool("isWalking", true);
         }
         else
         {
-            anim.SetBool("isWalking", false);
+            //anim.SetBool("isWalking", false);
         }
 
         MoveCamera();
@@ -70,8 +70,8 @@ public class ThirdPersonMovement : MonoBehaviour
 
             if (isGrounded)
             {
-                anim.SetTrigger("Land");
-                FindObjectOfType<AudioManager>().Play("Land");
+                //anim.SetTrigger("Land");
+                //FindObjectOfType<AudioManager>().Play("Land");
                 hasJumped = false;  
                 StartCoroutine(waitLand());
             }
@@ -81,7 +81,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
         if (collectibleNumber >= maxCollectibleNumber)
         {
-            SceneManager.LoadScene(sceneName);
+            //SceneManager.LoadScene(sceneName);
         }
     }
 
@@ -119,8 +119,8 @@ public class ThirdPersonMovement : MonoBehaviour
 
     void Jump()
     {
-        anim.SetTrigger("Jumped");
-        FindObjectOfType<AudioManager>().Play("Jump");
+        //anim.SetTrigger("Jumped");
+        //FindObjectOfType<AudioManager>().Play("Jump");
         StartCoroutine(waitJump());
         body.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         isGrounded = false;
