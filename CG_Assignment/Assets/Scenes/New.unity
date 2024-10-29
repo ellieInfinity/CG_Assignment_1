@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0.9
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -206,6 +206,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7527221903757096489, guid: 96b85015cf58de944898c7e347ad23ba, type: 3}
   m_PrefabInstance: {fileID: 1478893107}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &552736809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3022384875503738640, guid: 9ac19403c03cc054b8596ffd8d52e481, type: 3}
+  m_PrefabInstance: {fileID: 5989360471328242923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &552736817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552736809}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05be02c215dd65e4485d7fb6cda0315d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_renderMaterial: {fileID: 2100000, guid: f4614f553c5ad964aafcccffbc9add9e, type: 2}
 --- !u!1001 &590757565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -415,7 +433,7 @@ GameObject:
   - component: {fileID: 881713912}
   - component: {fileID: 881713911}
   - component: {fileID: 881713910}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1141,8 +1159,15 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.12421179
       objectReference: {fileID: 0}
+    - target: {fileID: 5727866259882390675, guid: 9ac19403c03cc054b8596ffd8d52e481, type: 3}
+      propertyPath: pixelDensity
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3022384875503738640, guid: 9ac19403c03cc054b8596ffd8d52e481, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 552736817}
   m_SourcePrefab: {fileID: 100100000, guid: 9ac19403c03cc054b8596ffd8d52e481, type: 3}
