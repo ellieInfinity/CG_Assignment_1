@@ -1113,6 +1113,10 @@ PrefabInstance:
       propertyPath: collectibleText
       value: 
       objectReference: {fileID: 1420332045}
+    - target: {fileID: 2159490865493305880, guid: 9ac19403c03cc054b8596ffd8d52e481, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2674867035159567632, guid: 9ac19403c03cc054b8596ffd8d52e481, type: 3}
       propertyPath: m_Name
       value: PlayerStuff
