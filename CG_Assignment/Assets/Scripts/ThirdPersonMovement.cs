@@ -81,7 +81,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
         if (collectibleNumber >= maxCollectibleNumber)
         {
-            //SceneManager.LoadScene(sceneName);
+            SceneManager.LoadScene(sceneName);
         }
     }
 
